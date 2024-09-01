@@ -1,6 +1,6 @@
-```markdown
+
 # Git Assignment - shwetasharma14
-```
+
 
 ## a. What is an _issue_?
 An issue can be created in a git repo to track and plan a piece of work.
@@ -46,7 +46,7 @@ git diff commit1 commit2 shows changes between two commits.
 git diff [file] shows changes in a specific file.
 
 ## g. What is the `main` branch?
-    This is the default branch created for each git repo. This branch is used to create all feature branches. The feature branches are merged back into the main branch through the pull requests. The main branch is used to send code to the environments.
+This is the default branch created for each git repo. This branch is used to create all feature branches. The feature branches are merged back into the main branch through the pull requests. The main branch is used to send code to the environments.
 
 ## h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the `main` branch?
-    No we should not push changes directly to the main branch. Feature branches should be created to commit code into. The feature branches should then be merged to the main branch through pull requests. This allows reviewers to review the code and provide feedback which can be corrected before committing the code to the main branch.
+No we should not push changes directly to the main branch. Feature branches should be created to commit code into. The feature branches should then be merged to the main branch through pull requests. This allows reviewers to review the code and provide feedback which can be corrected before committing the code to the main branch.
